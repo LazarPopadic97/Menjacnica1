@@ -11,14 +11,11 @@ public class NovaKlasa implements SpecifikacijaInterfejs{
 	List<Valuta> valute=new ArrayList<Valuta>();
 	@Override
 	public void dodajKurs(double kurs, GregorianCalendar datum) {
-<<<<<<< HEAD
+
 		if (datum==null)
 			System.out.println("Kurs je uspesno dodat");
 
-=======
-		
-		System.out.println("Nesto");
->>>>>>> refs/heads/implementacijaInterfejsa
+
 	}
 
 	@Override
