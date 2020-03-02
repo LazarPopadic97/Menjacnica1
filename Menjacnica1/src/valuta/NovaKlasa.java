@@ -8,8 +8,9 @@ public class NovaKlasa implements SpecifikacijaInterfejs{
 
 	@Override
 	public void dodajKurs(double kurs, GregorianCalendar datum) {
-		// TODO Auto-generated method stub
-		
+		if (datum==null)
+			System.out.println("Kurs je uspesno dodat");
+
 	}
 
 	@Override
